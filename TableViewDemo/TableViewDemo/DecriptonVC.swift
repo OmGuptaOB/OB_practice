@@ -1,24 +1,30 @@
 //
-//  ThirdViewController.swift
-//  Navigation_Controller_Practice
+//  DecriptonVC.swift
+//  TableViewDemo
 //
-//  Created by OBMac-13 on 02/02/26.
+//  Created by OBMac-13 on 13/02/26.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class DecriptonVC: UIViewController {
 
-    @IBAction func btnThird(_ sender: Any) {
-        let fourthVC = storyboard?.instantiateViewController(withIdentifier: "FourthViewController") as! FourthViewController
-//        let nav = UINavigationController(rootViewController: scondVC)
-        
-        self.navigationController?.pushViewController(fourthVC, animated: true)
-        
-    }
+    @IBOutlet weak var imgView: UIImageView!
+    
+    @IBOutlet weak var prodTitle: UILabel!
+    
+    @IBOutlet weak var prodDesc: UILabel!
+    
+   
+    var desc : String!
+    var imag : UIImage!
+    var titleprod : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imgView.image = imag
+        prodDesc.text = desc
+        prodTitle.text = titleprod
         // Do any additional setup after loading the view.
     }
     

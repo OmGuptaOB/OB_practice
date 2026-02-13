@@ -6,30 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E1ACB6A2F39F59000E49463 /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACB692F39F59000E49463 /* NavBarViewController.swift */; };
+		2E1ACB6D2F3A11B100E49463 /* SecondNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACB6C2F3A11B100E49463 /* SecondNavBarViewController.swift */; };
+		2E1ACB702F3A174400E49463 /* NavAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACB6F2F3A173C00E49463 /* NavAppearance.swift */; };
+		2E1ACB722F3A1B0100E49463 /* ThirdNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACB712F3A1B0100E49463 /* ThirdNavBarViewController.swift */; };
+		2E1ACB742F3A1B0D00E49463 /* FourthNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACB732F3A1B0D00E49463 /* FourthNavBarViewController.swift */; };
+		2EA55FFE2F35CB740044E2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA55FF22F35CB740044E2A4 /* AppDelegate.swift */; };
+		2EA55FFF2F35CB740044E2A4 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA55FF42F35CB740044E2A4 /* FourthViewController.swift */; };
+		2EA560002F35CB740044E2A4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA55FFA2F35CB740044E2A4 /* SecondViewController.swift */; };
+		2EA560012F35CB740044E2A4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA55FFB2F35CB740044E2A4 /* ThirdViewController.swift */; };
+		2EA560022F35CB740044E2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA55FFC2F35CB740044E2A4 /* ViewController.swift */; };
+		2EA560032F35CB740044E2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA55FF32F35CB740044E2A4 /* Assets.xcassets */; };
+		2EA560052F35CB740044E2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA55FF72F35CB740044E2A4 /* LaunchScreen.storyboard */; };
+		2EA560062F35CB740044E2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA55FF92F35CB740044E2A4 /* Main.storyboard */; };
+		2EA5600A2F35CCFD0044E2A4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA560092F35CCF60044E2A4 /* Constant.swift */; };
+		2EA5600D2F3606E10044E2A4 /* ChangeColourDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5600C2F3606D60044E2A4 /* ChangeColourDelegate.swift */; };
+		2EA5600F2F36269B0044E2A4 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5600E2F36269B0044E2A4 /* CustomPresentationController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2E1ACB692F39F59000E49463 /* NavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarViewController.swift; sourceTree = "<group>"; };
+		2E1ACB6C2F3A11B100E49463 /* SecondNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavBarViewController.swift; sourceTree = "<group>"; };
+		2E1ACB6F2F3A173C00E49463 /* NavAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavAppearance.swift; sourceTree = "<group>"; };
+		2E1ACB712F3A1B0100E49463 /* ThirdNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdNavBarViewController.swift; sourceTree = "<group>"; };
+		2E1ACB732F3A1B0D00E49463 /* FourthNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthNavBarViewController.swift; sourceTree = "<group>"; };
+		2EA55FF22F35CB740044E2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA55FF32F35CB740044E2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA55FF42F35CB740044E2A4 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		2EA55FF52F35CB740044E2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA55FF62F35CB740044E2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA55FF82F35CB740044E2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA55FFA2F35CB740044E2A4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2EA55FFB2F35CB740044E2A4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2EA55FFC2F35CB740044E2A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EA560092F35CCF60044E2A4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2EA5600C2F3606D60044E2A4 /* ChangeColourDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColourDelegate.swift; sourceTree = "<group>"; };
+		2EA5600E2F36269B0044E2A4 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
 		2EC1F3AB2F30856B000AEADC /* Navigation_Controller_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation_Controller_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2EC1F3BD2F30856C000AEADC /* Exceptions for "Navigation_Controller_Practice" folder in "Navigation_Controller_Practice" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 2EC1F3AA2F30856B000AEADC /* Navigation_Controller_Practice */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		2EC1F3AD2F30856B000AEADC /* Navigation_Controller_Practice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2EC1F3BD2F30856C000AEADC /* Exceptions for "Navigation_Controller_Practice" folder in "Navigation_Controller_Practice" target */,
-			);
-			path = Navigation_Controller_Practice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2EC1F3A82F30856B000AEADC /* Frameworks */ = {
@@ -42,10 +57,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1ACB6B2F3A119000E49463 /* NavigationbarVCs */ = {
+			isa = PBXGroup;
+			children = (
+				2E1ACB692F39F59000E49463 /* NavBarViewController.swift */,
+				2E1ACB712F3A1B0100E49463 /* ThirdNavBarViewController.swift */,
+				2E1ACB732F3A1B0D00E49463 /* FourthNavBarViewController.swift */,
+				2E1ACB6C2F3A11B100E49463 /* SecondNavBarViewController.swift */,
+			);
+			path = NavigationbarVCs;
+			sourceTree = "<group>";
+		};
+		2E1ACB6E2F3A173600E49463 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E1ACB6F2F3A173C00E49463 /* NavAppearance.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EA55FFD2F35CB740044E2A4 /* Navigation_Controller_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				2E1ACB6E2F3A173600E49463 /* Extensions */,
+				2E1ACB6B2F3A119000E49463 /* NavigationbarVCs */,
+				2EA5600B2F3606CE0044E2A4 /* Delegate */,
+				2EA560082F35CB8A0044E2A4 /* ViewController */,
+				2EA560072F35CB790044E2A4 /* AppDelegate */,
+				2EA55FF32F35CB740044E2A4 /* Assets.xcassets */,
+				2EA55FF52F35CB740044E2A4 /* Info.plist */,
+				2EA55FF72F35CB740044E2A4 /* LaunchScreen.storyboard */,
+				2EA55FF92F35CB740044E2A4 /* Main.storyboard */,
+			);
+			path = Navigation_Controller_Practice;
+			sourceTree = "<group>";
+		};
+		2EA560072F35CB790044E2A4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EA55FF22F35CB740044E2A4 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2EA560082F35CB8A0044E2A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EA560092F35CCF60044E2A4 /* Constant.swift */,
+				2EA55FF42F35CB740044E2A4 /* FourthViewController.swift */,
+				2EA55FFA2F35CB740044E2A4 /* SecondViewController.swift */,
+				2EA55FFB2F35CB740044E2A4 /* ThirdViewController.swift */,
+				2EA55FFC2F35CB740044E2A4 /* ViewController.swift */,
+				2EA5600E2F36269B0044E2A4 /* CustomPresentationController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2EA5600B2F3606CE0044E2A4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5600C2F3606D60044E2A4 /* ChangeColourDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		2EC1F3A22F30856B000AEADC = {
 			isa = PBXGroup;
 			children = (
-				2EC1F3AD2F30856B000AEADC /* Navigation_Controller_Practice */,
+				2EA55FFD2F35CB740044E2A4 /* Navigation_Controller_Practice */,
 				2EC1F3AC2F30856B000AEADC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,9 +151,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				2EC1F3AD2F30856B000AEADC /* Navigation_Controller_Practice */,
 			);
 			name = Navigation_Controller_Practice;
 			packageProductDependencies = (
@@ -122,6 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA560032F35CB740044E2A4 /* Assets.xcassets in Resources */,
+				2EA560052F35CB740044E2A4 /* LaunchScreen.storyboard in Resources */,
+				2EA560062F35CB740044E2A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +211,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA5600F2F36269B0044E2A4 /* CustomPresentationController.swift in Sources */,
+				2E1ACB742F3A1B0D00E49463 /* FourthNavBarViewController.swift in Sources */,
+				2EA55FFE2F35CB740044E2A4 /* AppDelegate.swift in Sources */,
+				2E1ACB722F3A1B0100E49463 /* ThirdNavBarViewController.swift in Sources */,
+				2EA5600D2F3606E10044E2A4 /* ChangeColourDelegate.swift in Sources */,
+				2E1ACB702F3A174400E49463 /* NavAppearance.swift in Sources */,
+				2EA55FFF2F35CB740044E2A4 /* FourthViewController.swift in Sources */,
+				2E1ACB6D2F3A11B100E49463 /* SecondNavBarViewController.swift in Sources */,
+				2EA560002F35CB740044E2A4 /* SecondViewController.swift in Sources */,
+				2E1ACB6A2F39F59000E49463 /* NavBarViewController.swift in Sources */,
+				2EA560012F35CB740044E2A4 /* ThirdViewController.swift in Sources */,
+				2EA560022F35CB740044E2A4 /* ViewController.swift in Sources */,
+				2EA5600A2F35CCFD0044E2A4 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EA55FF72F35CB740044E2A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA55FF62F35CB740044E2A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA55FF92F35CB740044E2A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA55FF82F35CB740044E2A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2EC1F3BF2F30856C000AEADC /* Debug */ = {

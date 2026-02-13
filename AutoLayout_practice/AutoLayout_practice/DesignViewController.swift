@@ -19,13 +19,25 @@ class DesignViewController: UIViewController {
     @IBOutlet weak var imageView1: UIImageView!
     @IBOutlet weak var imageView2: UIImageView!
     
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        let topInset = view.safeAreaInsets.top
+            let bottomInset = view.safeAreaInsets.bottom
+            
+        print("Top Safe Area:", topInset)
+        print("Bottom Safe Area:", bottomInset)
+        
+        let safeFrame = view.safeAreaLayoutGuide.layoutFrame
+           print("Safe Area Frame:", safeFrame)
+    }
+    
     @IBAction func OnClickChangeImage(_ sender: Any){
         
         let tempimg = imageView1.image
     imageView1.image = imageView2.image
     imageView2.image = tempimg
-        
-        
+     
 
     let oldAspect1 = imageaspect1.multiplier
     let oldAspect2 = imageaspect2.multiplier
@@ -49,7 +61,11 @@ class DesignViewController: UIViewController {
         imageaspect2.isActive = true
     
         
-
+        let topInset = view.safeAreaInsets.top
+            let bottomInset = view.safeAreaInsets.bottom
+            
+            print("Top Safe Area:", topInset)
+            print("Bottom Safe Area:", bottomInset)
 
     }
 //    {

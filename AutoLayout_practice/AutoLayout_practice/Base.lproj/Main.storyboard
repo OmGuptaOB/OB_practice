@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NEy-cu-QeM">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WhB-z7-HTd">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="iOh-T6-w6y" customClass="ViewController" customModule="AutoLayout_practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P1X-fY-yZ5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLi-Xs-w9e">
-                                <rect key="frame" x="0.0" y="20" width="440" height="548"/>
+                                <rect key="frame" x="0.0" y="62" width="402" height="778"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4c-Gr-Oep">
-                                        <rect key="frame" x="0.0" y="0.0" width="440" height="87.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="402" height="124.33333333333333"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="78" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bF1-oR-nuz">
-                                                <rect key="frame" x="363" y="40" width="47" height="7.5"/>
+                                                <rect key="frame" x="325" y="40" width="47" height="44.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -37,13 +37,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxV-gP-2BH">
-                                        <rect key="frame" x="0.0" y="87.5" width="440" height="88"/>
+                                        <rect key="frame" x="0.0" y="124.33333333333334" width="402" height="124.66666666666666"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFR-Cg-7po">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7U-DN-PDQ">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.66666666666667"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="%">
@@ -62,10 +62,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijb-Tm-jCS">
-                                                <rect key="frame" x="110" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="100.66666666666669" y="0.0" width="100.33333333333331" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKF-YH-qQZ">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.66666666666667"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="+/-">
@@ -84,10 +84,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkN-aY-ZWM">
-                                                <rect key="frame" x="220" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="201" y="0.0" width="100.66666666666669" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-2v-CnM">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.66666666666667"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="AC">
@@ -106,10 +106,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dZ-oY-0Sq">
-                                                <rect key="frame" x="330" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="301.66666666666669" y="0.0" width="100.33333333333331" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnY-S6-Ths">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.66666666666667"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="/">
@@ -154,13 +154,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jFr-XV-l5K">
-                                        <rect key="frame" x="0.0" y="263" width="440" height="87.5"/>
+                                        <rect key="frame" x="0.0" y="373.33333333333331" width="402" height="124.66666666666669"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXl-me-zbf">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XW1-fy-STv">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.66666666666667"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="6">
@@ -178,10 +178,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXX-E8-EN2">
-                                                <rect key="frame" x="110" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="100.66666666666669" y="0.0" width="100.33333333333331" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4B-bJ-Wom">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.66666666666667"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="5">
@@ -199,10 +199,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lI-64-cTW">
-                                                <rect key="frame" x="220" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="201" y="0.0" width="100.66666666666669" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBa-vJ-5Vs">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.66666666666667"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="4">
@@ -220,10 +220,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9g8-Ot-cTh">
-                                                <rect key="frame" x="330" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="301.66666666666669" y="0.0" width="100.33333333333331" height="124.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvG-Ul-JSc">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.66666666666667"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="-">
@@ -267,13 +267,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3n-t3-i8j">
-                                        <rect key="frame" x="0.0" y="350.5" width="440" height="88"/>
+                                        <rect key="frame" x="0.0" y="497.99999999999994" width="402" height="124.33333333333331"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Hh-c6-hWW">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fke-5L-EPh">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="3">
@@ -291,10 +291,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vcI-Wx-xEE">
-                                                <rect key="frame" x="110" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="100.66666666666669" y="0.0" width="100.33333333333331" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eba-JU-Sgo">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="2">
@@ -312,10 +312,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRz-0X-Bkq">
-                                                <rect key="frame" x="220" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="201" y="0.0" width="100.66666666666669" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTt-Sg-qp0">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="1">
@@ -333,10 +333,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26r-yb-O0F">
-                                                <rect key="frame" x="330" y="0.0" width="110" height="88"/>
+                                                <rect key="frame" x="301.66666666666669" y="0.0" width="100.33333333333331" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eR-u8-Vdo">
-                                                        <rect key="frame" x="1" y="1" width="108" height="86"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="+">
@@ -380,13 +380,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CoE-GZ-tZ1">
-                                        <rect key="frame" x="0.0" y="438.5" width="440" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="622.33333333333337" width="402" height="155.66666666666663"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZC-k4-fqi">
-                                                <rect key="frame" x="0.0" y="0.0" width="220" height="109.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="201" height="155.66666666666666"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFy-7w-vOd">
-                                                        <rect key="frame" x="1" y="1" width="218" height="107.5"/>
+                                                        <rect key="frame" x="1" y="1" width="199" height="153.66666666666666"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="0">
@@ -404,13 +404,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GVA-Mj-w2t">
-                                                <rect key="frame" x="220" y="0.0" width="220" height="109.5"/>
+                                                <rect key="frame" x="201" y="0.0" width="201" height="155.66666666666666"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Im-MJ-zeI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="109.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="155.66666666666666"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWB-Tm-OQ8">
-                                                                <rect key="frame" x="1" y="1" width="108" height="107.5"/>
+                                                                <rect key="frame" x="1" y="1" width="98.666666666666671" height="153.66666666666666"/>
                                                                 <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="tinted" title=".">
@@ -428,10 +428,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCq-4Y-H6D">
-                                                        <rect key="frame" x="110" y="0.0" width="110" height="109.5"/>
+                                                        <rect key="frame" x="100.66666666666669" y="0.0" width="100.33333333333331" height="155.66666666666666"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJN-Bf-2W8">
-                                                                <rect key="frame" x="1" y="1" width="108" height="107.5"/>
+                                                                <rect key="frame" x="1" y="1" width="98.333333333333329" height="153.66666666666666"/>
                                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="tinted" title="=">
@@ -481,13 +481,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D8f-QS-1nq">
-                                        <rect key="frame" x="0.0" y="175.5" width="440" height="87.5"/>
+                                        <rect key="frame" x="0.0" y="249.00000000000003" width="402" height="124.33333333333334"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5d1-ez-iAL">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FR-PQ-k05">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="9">
@@ -505,10 +505,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DR-51-hCB">
-                                                <rect key="frame" x="110" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="100.66666666666669" y="0.0" width="100.33333333333331" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTX-v7-exA">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="8">
@@ -526,10 +526,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rk6-kC-EpU">
-                                                <rect key="frame" x="220" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="201" y="0.0" width="100.66666666666669" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCt-Zf-qZn">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.666666666666671" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="7">
@@ -547,10 +547,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynJ-8y-fi5">
-                                                <rect key="frame" x="330" y="0.0" width="110" height="87.5"/>
+                                                <rect key="frame" x="301.66666666666669" y="0.0" width="100.33333333333331" height="124.33333333333333"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAf-Td-84u">
-                                                        <rect key="frame" x="1" y="1" width="108" height="85.5"/>
+                                                        <rect key="frame" x="1" y="1" width="98.333333333333329" height="122.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="tinted" title="x">
@@ -648,21 +648,21 @@
             <objects>
                 <viewController id="XGm-h7-4Lp" userLabel="Calc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M8Q-xw-DhU" userLabel="Main">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjv-bD-4Tw" userLabel="row1">
-                                <rect key="frame" x="0.0" y="174.5" width="320" height="77.5"/>
+                                <rect key="frame" x="0.0" y="378.66666666666669" width="402" height="98"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX2-ao-796">
-                                        <rect key="frame" x="161" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="202" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="sX2-ao-796" secondAttribute="height" id="EFs-5I-PhF"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="AC">
-                                            <backgroundConfiguration key="background" cornerRadius="40">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -670,11 +670,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sig-qf-YWC">
-                                        <rect key="frame" x="240.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="302" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="/">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
@@ -682,11 +682,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJi-gT-7zH">
-                                        <rect key="frame" x="81.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="102" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+/-">
-                                            <backgroundConfiguration key="background" cornerRadius="40">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -694,11 +694,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCd-fZ-T2J">
-                                        <rect key="frame" x="2" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="%">
-                                            <backgroundConfiguration key="background" cornerRadius="40">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -727,14 +727,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7y-gD-9Uq" userLabel="row2">
-                                <rect key="frame" x="0.0" y="254" width="320" height="77.5"/>
+                                <rect key="frame" x="0.0" y="478.66666666666674" width="402" height="98"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iq8-W4-Xee">
-                                        <rect key="frame" x="161" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="202" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="7">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -742,11 +742,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49A-cm-fF3">
-                                        <rect key="frame" x="240.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="302" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="x">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -754,11 +754,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BH-Z2-udD">
-                                        <rect key="frame" x="81.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="102" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="8">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -766,11 +766,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyf-rp-NNC">
-                                        <rect key="frame" x="2" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="9">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -799,14 +799,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7j-na-s68" userLabel="row3">
-                                <rect key="frame" x="0.0" y="333.5" width="320" height="77.5"/>
+                                <rect key="frame" x="0.0" y="578.66666666666663" width="402" height="98"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjc-db-eb4">
-                                        <rect key="frame" x="161" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="202" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="4">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -814,11 +814,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRj-SQ-XUC">
-                                        <rect key="frame" x="240.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="302" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="_">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                        <buttonConfiguration key="configuration" style="plain" title="-">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -826,11 +826,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-Q0-6ar">
-                                        <rect key="frame" x="81.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="102" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="5">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -838,11 +838,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ap0-2J-XUv">
-                                        <rect key="frame" x="2" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="6">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -871,14 +871,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l96-Jd-3lH" userLabel="row4">
-                                <rect key="frame" x="0.0" y="413" width="320" height="77.5"/>
+                                <rect key="frame" x="0.0" y="678.66666666666663" width="402" height="98"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlR-X4-1Rc">
-                                        <rect key="frame" x="161" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="202" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="1">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -886,11 +886,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQr-Ee-nmw">
-                                        <rect key="frame" x="240.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="302" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -898,11 +898,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzH-RL-xOK">
-                                        <rect key="frame" x="81.5" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="102" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -910,11 +910,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lt4-MH-Qug">
-                                        <rect key="frame" x="2" y="0.0" width="77.5" height="77.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="98" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="3">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -943,14 +943,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NG4-9F-oRP" userLabel="row5">
-                                <rect key="frame" x="0.0" y="492.5" width="320" height="75.5"/>
+                                <rect key="frame" x="0.0" y="778.66666666666663" width="402" height="95.333333333333371"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVe-v6-YPV">
-                                        <rect key="frame" x="2" y="0.0" width="156.5" height="75.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="197.66666666666666" height="95.333333333333329"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="0">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -958,11 +958,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bge-gG-pNl">
-                                        <rect key="frame" x="160.5" y="0.0" width="78" height="75.5"/>
+                                        <rect key="frame" x="201.66666666666666" y="0.0" width="98.666666666666657" height="95.333333333333329"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=".">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="linkColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -970,11 +970,11 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-Co-G2a">
-                                        <rect key="frame" x="240.5" y="0.0" width="77.5" height="75.5"/>
+                                        <rect key="frame" x="302.33333333333331" y="0.0" width="97.666666666666686" height="95.333333333333329"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="=">
-                                            <backgroundConfiguration key="background" cornerRadius="30">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0">
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
@@ -999,7 +999,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaY-Se-v9w">
-                                <rect key="frame" x="0.0" y="20" width="320" height="149.5"/>
+                                <rect key="frame" x="0.0" y="62" width="402" height="311.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1011,8 +1011,7 @@
                             <constraint firstItem="kaY-Se-v9w" firstAttribute="leading" secondItem="Yla-nZ-DLh" secondAttribute="leading" id="0ig-fn-7gT"/>
                             <constraint firstItem="l96-Jd-3lH" firstAttribute="top" secondItem="A7j-na-s68" secondAttribute="bottom" constant="2" id="2KC-N1-Xqh"/>
                             <constraint firstItem="Yla-nZ-DLh" firstAttribute="trailing" secondItem="bjv-bD-4Tw" secondAttribute="trailing" id="MyJ-as-2bp"/>
-                            <constraint firstItem="Yla-nZ-DLh" firstAttribute="bottom" secondItem="NG4-9F-oRP" secondAttribute="bottom" id="NLs-6d-Xkt"/>
-                            <constraint firstItem="NG4-9F-oRP" firstAttribute="bottom" secondItem="Yla-nZ-DLh" secondAttribute="bottom" id="NRU-mr-0sA"/>
+                            <constraint firstItem="NG4-9F-oRP" firstAttribute="bottom" secondItem="M8Q-xw-DhU" secondAttribute="bottom" id="NRU-mr-0sA"/>
                             <constraint firstItem="l7y-gD-9Uq" firstAttribute="trailing" secondItem="Yla-nZ-DLh" secondAttribute="trailing" id="OOi-Fg-nMy"/>
                             <constraint firstItem="NG4-9F-oRP" firstAttribute="top" secondItem="l96-Jd-3lH" secondAttribute="bottom" constant="2" id="Ote-HY-Gap"/>
                             <constraint firstItem="l7y-gD-9Uq" firstAttribute="leading" secondItem="Yla-nZ-DLh" secondAttribute="leading" id="PIM-ix-XDa"/>
@@ -1044,23 +1043,23 @@
             <objects>
                 <viewController storyboardIdentifier="DesignViewController" id="WhB-z7-HTd" customClass="DesignViewController" customModule="AutoLayout_practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XjO-LE-ofy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebO-YK-Xtq">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="62" width="402" height="778"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTx-7C-PPd" userLabel="Card">
-                                        <rect key="frame" x="16" y="16" width="136" height="240.5"/>
+                                        <rect key="frame" x="16" y="16" width="177" height="302"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p1" translatesAutoresizingMaskIntoConstraints="NO" id="xdD-zP-5xo">
-                                                <rect key="frame" x="8" y="8" width="120" height="180"/>
+                                                <rect key="frame" x="8" y="7.9999999999999858" width="161" height="241.66666666666663"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xdD-zP-5xo" secondAttribute="height" multiplier="2427:3641" id="Zdk-9k-ilE"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lanel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sz-VY-dc9">
-                                                <rect key="frame" x="16" y="204" width="104" height="20.5"/>
+                                                <rect key="frame" x="16" y="265.66666666666669" width="145" height="20.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -1078,17 +1077,17 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IUf-ct-Sly" userLabel="Card">
-                                        <rect key="frame" x="168" y="16" width="136" height="151"/>
+                                        <rect key="frame" x="209" y="16" width="177" height="182"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p2" translatesAutoresizingMaskIntoConstraints="NO" id="Dbl-im-Ld6">
-                                                <rect key="frame" x="8" y="8" width="120" height="90.5"/>
+                                                <rect key="frame" x="8" y="8.0000000000000071" width="161" height="121.66666666666669"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Dbl-im-Ld6" secondAttribute="height" multiplier="3000 : 2265" id="Krz-ji-BAv"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lable" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugK-BZ-bM4">
-                                                <rect key="frame" x="20" y="114.5" width="100" height="20.5"/>
+                                                <rect key="frame" x="20" y="145.66666666666666" width="141" height="20.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -1106,7 +1105,10 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyH-Df-l79">
-                                        <rect key="frame" x="150" y="493" width="20" height="35"/>
+                                        <rect key="frame" x="150" y="723" width="102" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" priority="999" constant="100" id="AQu-lq-TQn"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                         <connections>
@@ -1116,11 +1118,11 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="iyH-Df-l79" secondAttribute="trailing" constant="150" id="5cz-Ox-SpH"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="iyH-Df-l79" secondAttribute="trailing" constant="150" id="5cz-Ox-SpH"/>
                                     <constraint firstItem="IUf-ct-Sly" firstAttribute="leading" secondItem="pTx-7C-PPd" secondAttribute="trailing" constant="16" id="6Eo-xu-tK8"/>
                                     <constraint firstItem="pTx-7C-PPd" firstAttribute="top" secondItem="ebO-YK-Xtq" secondAttribute="top" constant="16" id="V01-kT-qV0"/>
                                     <constraint firstItem="IUf-ct-Sly" firstAttribute="top" secondItem="ebO-YK-Xtq" secondAttribute="top" constant="16" id="WGl-Lq-EHg"/>
-                                    <constraint firstItem="iyH-Df-l79" firstAttribute="leading" secondItem="ebO-YK-Xtq" secondAttribute="leading" constant="150" id="foK-jk-6eO"/>
+                                    <constraint firstItem="iyH-Df-l79" firstAttribute="leading" relation="lessThanOrEqual" secondItem="ebO-YK-Xtq" secondAttribute="leading" constant="150" id="foK-jk-6eO"/>
                                     <constraint firstItem="pTx-7C-PPd" firstAttribute="leading" secondItem="ebO-YK-Xtq" secondAttribute="leading" constant="16" id="lLR-Iv-5XQ"/>
                                     <constraint firstItem="pTx-7C-PPd" firstAttribute="width" secondItem="IUf-ct-Sly" secondAttribute="width" id="nds-9s-Ew6"/>
                                     <constraint firstAttribute="trailing" secondItem="IUf-ct-Sly" secondAttribute="trailing" constant="16" id="zGs-pV-qEe"/>
@@ -1153,11 +1155,11 @@
             <objects>
                 <viewController id="NEy-cu-QeM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43E-YG-Sny">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFh-3b-tbZ" userLabel="A">
-                                <rect key="frame" x="70" y="202" width="180" height="120"/>
+                                <rect key="frame" x="111" y="377" width="180" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Dkk-ap-qCD"/>
@@ -1165,7 +1167,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLu-mK-HnG" userLabel="B">
-                                <rect key="frame" x="30" y="338" width="260" height="220"/>
+                                <rect key="frame" x="71" y="513" width="260" height="220"/>
                                 <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="LVi-bT-Fcx"/>
