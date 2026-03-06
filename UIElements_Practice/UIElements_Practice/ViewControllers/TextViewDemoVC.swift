@@ -22,11 +22,76 @@ class TextViewDemoVC: UIViewController, UITextViewDelegate {
         setupTextView()
         setupCharacterLabel()
     }
+    func textView(_ textView: UITextView,
+                  primaryActionFor textItem: UITextItem,
+                  defaultAction: UIAction) -> UIAction? {
+
+        return UIAction(title: "Custom Open") { _ in
+            print("User tapped detected item")
+        }
+    }
+    
+    func textView(_ textView: UITextView,
+                  textItemMenuWillDisplayFor textItem: UITextItem,
+                  animator: any UIContextMenuInteractionAnimating) {
+
+        print("Menu will show")
+
+        animator.addAnimations {
+            textView.backgroundColor = .systemPink
+        }
+    }
+    
+    func textView(_ textView: UITextView,
+                  willPresentEditMenuWith animator: UIEditMenuInteractionAnimating) {
+
+        animator.addAnimations {
+            textView.backgroundColor = UIColor.systemGray6
+        }
+    }
+
+
+    func textView(_ textView: UITextView,
+                  textItemMenuWillEndFor textItem: UITextItem,
+                  animator: any UIContextMenuInteractionAnimating) {
+
+        animator.addAnimations {
+            textView.backgroundColor = .white
+        }
+    }
+
+    func textView(_ textView: UITextView, editMenuForTextIn range: NSRange, suggestedActions: [UIMenuElement]) -> UIMenu? {
+        var additionalActions: [UIMenuElement] = []
+        if range.length > 0 {
+            let highlightAction = UIAction(title: "Highlight", image: UIImage(systemName: "highlighter")) { action in
+                if let textRange = Range(range, in: textView.text) {
+                    let attributed = NSMutableAttributedString(attributedString: textView.attributedText)
+                    attributed.addAttribute(.backgroundColor,
+                                            value: UIColor.yellow,
+                                            range: range)
+                    textView.attributedText = attributed
+                }
+            }
+            additionalActions.append(highlightAction)
+        }
+        let addBookmarkAction = UIAction(title: "Add Bookmark", image: UIImage(systemName: "bookmark")) { action in
+            // The bookmark action.
+        }
+        additionalActions.append(addBookmarkAction)
+//        return UIMenu(children: suggestedActions + additionalActions)
+        return UIMenu(title: "",
+                             children: [
+                                 UIMenu(title: "Custom",
+                                        options: .displayInline,
+                                        children: additionalActions)
+                             ])
+
+    }
 
     func setupTextView() {
         // Text
         textViewOne.text = """
-                            on filght AJ2002 Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            on filght AJ2002 Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  www.google.com
                             """
         textViewOne.font = UIFont.systemFont(ofSize: 18)
         textViewOne.textColor = .label
@@ -112,7 +177,8 @@ class TextViewDemoVC: UIViewController, UITextViewDelegate {
         let currentText = textView.text ?? ""
         guard let stringRange = Range(range, in: currentText) else { return false }
         let updatedText = currentText.replacingCharacters(in: stringRange, with: text)
-        return updatedText.count <= 1000
+        
+        return updatedText.count <= 200
     }
     
     

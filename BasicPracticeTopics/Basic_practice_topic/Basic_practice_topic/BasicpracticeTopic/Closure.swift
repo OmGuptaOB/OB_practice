@@ -85,9 +85,65 @@ class Closure {
     func assignname(name:String)->String{
         return name
     }
-   
+  static func makeCounter() -> () -> Int {
+        var count = 0
+        
+        return {
+            count += 1
+            return count
+        }
+    }
+    
+    
+    
+    
     
 }
+
+
+class New1 {
+    
+    func hello() {
+        var name = "Alice"
+        let greet = { [name] in   // captures the VALUE of name right now
+            print("Hello \(name)")
+        }
+        name = "Bob1"
+        greet() // "Hello Alice" — captured the old value!
+        print(name)
+        let greeting = greet
+        name = "Bob"
+        greeting()
+    }
+    
+}
+
+//class NewClosure{
+//
+//    func fetchUser(completion: @escaping (String) -> Void) {
+//
+//        print("Fetching user from server...")
+//
+//        // Simulating async API delay (like network call)
+//        DispatchQueue.global().asyncAfter(deadline: .now() + 2) {
+//
+//        let fakeResponse = "User: Smit, Age: 25"
+//
+//            completion(fakeResponse)
+//        }
+//    }
+//
+//    // Call the async function
+//    fetchUser { result in
+//        print("Received Dat     a:")
+//        print(result)
+//
+//        exit(0)  // stop program after completion
+//    }
+//
+//    // Keep program running to wait for async task
+//    RunLoop.main.run
+//}
 
 
 

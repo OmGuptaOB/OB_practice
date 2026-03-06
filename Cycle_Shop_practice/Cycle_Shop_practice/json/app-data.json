@@ -1,0 +1,436 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "category": "Road Bike",
+      "name": "PEUGEOT - LR01",
+      "price": 1999.99,
+      "discount_percent": 30,
+      "discounted_price": 1399.99,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "Image 1",
+      "images": [
+        "Image 1"
+      ],
+      "description": "The LR01 uses the same design as the most iconic bikes from PEUGEOT Cycles' 130-year history and combines it with agile, dynamic performance that's perfectly suited to navigating today's cities. As well as a lugged steel frame and iconic PEUGEOT black-and-white chequer design, this city bike also features a 16-speed Shimano Claris drivetrain.",
+      "specifications": {
+        "frame": "Lugged Steel",
+        "drivetrain": "Shimano Claris 16-speed",
+        "brakes": "Dual-pivot caliper",
+        "wheels": "700c",
+        "weight": "9.8 kg",
+        "colour": "Black & White Chequer"
+      }
+    },
+    {
+      "id": "p2",
+      "category": "Road Helmet",
+      "name": "SMITH - Trade",
+      "price": 100.00,
+      "discount_percent": 20,
+      "discounted_price": 100.00,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1",
+      "images": [
+        "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1",
+        "Image 1",
+        "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1"
+      ],
+      "description": "The Smith Trade helmet offers superior ventilation and a sleek aerodynamic profile. Ideal for road cyclists who demand both performance and style.",
+      "specifications": {
+        "shell": "In-mold polycarbonate",
+        "ventilation": "21 vents",
+        "fit_system": "Boa Fit System",
+        "certification": "CPSC, CE EN1078",
+        "weight": "270 g",
+        "sizes": "S, M, L"
+      }
+    },
+    {
+      "id": "p3",
+      "category": "Road Bike",
+      "name": "PILOT - CHROMOLY",
+      "price": 3999.99,
+      "discount_percent":23,
+      "discounted_price": 3999.99,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      ],
+      "description": "The Pilot Chromoly 520 is built for the serious road cyclist. Its high-tensile chromoly steel frame delivers a smooth, responsive ride on any terrain.",
+      "specifications": {
+        "frame": "Chromoly 520 Steel",
+        "drivetrain": "Shimano 105 22-speed",
+        "brakes": "Hydraulic disc",
+        "wheels": "700c",
+        "weight": "8.5 kg",
+        "colour": "Matte Black"
+      }
+    },
+    {
+      "id": "p4",
+      "category": "Electric Bike",
+      "name": "COBI - E Urban",
+      "price": 2499.99,
+      "discount_percent": 15,
+      "discounted_price": 2499.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "Electric%20Bicycle.I05 2",
+      "images": [
+        "Electric%20Bicycle.I05 2"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p5",
+      "category": "cool Helmet",
+      "name": "COBI Helms",
+      "price": 499.99,
+      "discount_percent": 15,
+      "discounted_price": 2499.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "helmet_cool-1",
+      "images": [
+        "helmet_cool-1"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p6",
+      "category": "cool Helmet studio",
+      "name": "Helmet studio",
+      "price": 399.99,
+      "discount_percent": 15,
+      "discounted_price": 299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "helmet_cool-studio",
+      "images": [
+        "helmet_cool-studio",
+        "helmet_cool-studio"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p7",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p8",
+      "category": "Road Bike",
+      "name": "PEUGEOT - LR01",
+      "price": 1999.99,
+      "discount_percent": 30,
+      "discounted_price": 1399.99,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "Image 1",
+      "images": [
+        "Image 1"
+      ],
+      "description": "The LR01 uses the same design as the most iconic bikes from PEUGEOT Cycles' 130-year history and combines it with agile, dynamic performance that's perfectly suited to navigating today's cities. As well as a lugged steel frame and iconic PEUGEOT black-and-white chequer design, this city bike also features a 16-speed Shimano Claris drivetrain.",
+      "specifications": {
+        "frame": "Lugged Steel",
+        "drivetrain": "Shimano Claris 16-speed",
+        "brakes": "Dual-pivot caliper",
+        "wheels": "700c",
+        "weight": "9.8 kg",
+        "colour": "Black & White Chequer"
+      }
+    },
+    {
+      "id": "p9",
+      "category": "Road Helmet",
+      "name": "SMITH - Trade",
+      "price": 100.00,
+      "discount_percent": 20,
+      "discounted_price": 100.00,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1",
+      "images": [
+        "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1",
+        "Image 1",
+        "cobi-krumholz-mZKF19ydEzk-unsplash-removebg-preview 1"
+      ],
+      "description": "The Smith Trade helmet offers superior ventilation and a sleek aerodynamic profile. Ideal for road cyclists who demand both performance and style.",
+      "specifications": {
+        "shell": "In-mold polycarbonate",
+        "ventilation": "21 vents",
+        "fit_system": "Boa Fit System",
+        "certification": "CPSC, CE EN1078",
+        "weight": "270 g",
+        "sizes": "S, M, L"
+      }
+    },
+    {
+      "id": "p10",
+      "category": "Road Bike",
+      "name": "PILOT - CHROMOLY",
+      "price": 3999.99,
+      "discount_percent":23,
+      "discounted_price": 3999.99,
+      "is_liked": false,
+      "badge": null,
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      ],
+      "description": "The Pilot Chromoly 520 is built for the serious road cyclist. Its high-tensile chromoly steel frame delivers a smooth, responsive ride on any terrain.",
+      "specifications": {
+        "frame": "Chromoly 520 Steel",
+        "drivetrain": "Shimano 105 22-speed",
+        "brakes": "Hydraulic disc",
+        "wheels": "700c",
+        "weight": "8.5 kg",
+        "colour": "Matte Black"
+      }
+    },
+    {
+      "id": "p11",
+      "category": "Electric Bike",
+      "name": "COBI - E Urban",
+      "price": 2499.99,
+      "discount_percent": 15,
+      "discounted_price": 2499.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "Electric%20Bicycle.I05 2",
+      "images": [
+        "Electric%20Bicycle.I05 2"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p12",
+      "category": "cool Helmet",
+      "name": "COBI Helms",
+      "price": 499.99,
+      "discount_percent": 15,
+      "discounted_price": 2499.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "helmet_cool-1",
+      "images": [
+        "helmet_cool-1"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p13",
+      "category": "cool Helmet studio",
+      "name": "Helmet studio",
+      "price": 399.99,
+      "discount_percent": 15,
+      "discounted_price": 299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "helmet_cool-studio",
+      "images": [
+        "helmet_cool-studio",
+        "helmet_cool-studio"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p14",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p15",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p16",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p17",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    },
+    {
+      "id": "p18",
+      "category": "red Bikes",
+      "name": "Redgear",
+      "price": 1399.99,
+      "discount_percent": 15,
+      "discounted_price": 1299.99,
+      "is_liked": false,
+      "badge": "New",
+      "thumbnail": "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+      "images": [
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3",
+        "mikkel-bech-yjAFnkLtKY0-unsplash-removebg-preview 3"
+      ],
+      "description": "The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.The COBI E Urban blends smart connectivity with powerful electric assist. Perfect for commuters who want a connected, effortless ride through the city.",
+      "specifications": {
+        "frame": "Aluminium Alloy",
+        "motor": "250W Rear Hub",
+        "battery": "36V 10Ah Li-ion",
+        "range": "Up to 80 km",
+        "weight": "22 kg",
+        "colour": "Gloss White"
+      }
+    }
+  ]
+}

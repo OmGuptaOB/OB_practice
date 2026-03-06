@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9F95ED2F4886DC005BDAE0 /* TableVcCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F95EC2F4886DC005BDAE0 /* TableVcCell2.swift */; };
+		2EC024FD2F47360F0077E579 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC024FC2F47360F0077E579 /* PracticeViewController.swift */; };
 		2EDA55262F3F07F200B209EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA551D2F3F07F200B209EF /* Assets.xcassets */; };
 		2EDA55282F3F07F200B209EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA55202F3F07F200B209EF /* LaunchScreen.storyboard */; };
 		2EDA55292F3F07F200B209EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA55222F3F07F200B209EF /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9F95EC2F4886DC005BDAE0 /* TableVcCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVcCell2.swift; sourceTree = "<group>"; };
+		2EC024FC2F47360F0077E579 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		2EDA55042F3EDFF900B209EF /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDA551C2F3F07F200B209EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EDA551D2F3F07F200B209EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			children = (
 				2EDA552E2F3F080D00B209EF /* TableVC.swift */,
 				2EDA55392F3F25C600B209EF /* DecriptonVC.swift */,
+				2EC024FC2F47360F0077E579 /* PracticeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			children = (
 				2EDA55352F3F08D600B209EF /* TableVcCell.swift */,
 				2EDA55362F3F08D600B209EF /* TableVcCell.xib */,
+				2E9F95EC2F4886DC005BDAE0 /* TableVcCell2.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 				2EDA55302F3F080D00B209EF /* TableVC.swift in Sources */,
 				2EDA553A2F3F25C600B209EF /* DecriptonVC.swift in Sources */,
 				2EDA55382F3F08D600B209EF /* TableVcCell.swift in Sources */,
+				2EC024FD2F47360F0077E579 /* PracticeViewController.swift in Sources */,
 				2EDA552A2F3F07F200B209EF /* AppDelegate.swift in Sources */,
+				2E9F95ED2F4886DC005BDAE0 /* TableVcCell2.swift in Sources */,
 				2EDA552B2F3F07F200B209EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

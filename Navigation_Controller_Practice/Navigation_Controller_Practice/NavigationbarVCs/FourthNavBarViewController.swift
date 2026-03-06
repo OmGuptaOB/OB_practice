@@ -14,7 +14,7 @@ class FourthNavBarViewController: UIViewController {
     }
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
+//        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
     }
     
     

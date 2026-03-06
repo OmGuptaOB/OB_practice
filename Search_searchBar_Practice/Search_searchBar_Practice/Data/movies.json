@@ -1,0 +1,436 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "plot": "A skilled thief who steals secrets through dream-sharing technology is given a chance to have his past crimes erased if he can implant an idea into a CEO's subconscious.",
+    "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "rating": {
+      "imdb": 8.8,
+      "rottenTomatoes": 87
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": "The Wachowskis",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "plot": "A computer hacker learns that the world he lives in is a simulated reality and joins a rebellion against the machines who control it.",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "rating": {
+      "imdb": 8.7,
+      "rottenTomatoes": 88
+    }
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival as Earth becomes uninhabitable.",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "rating": {
+      "imdb": 8.6,
+      "rottenTomatoes": 72
+    }
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "plot": "Batman raises the stakes in his war on crime as the Joker, a criminal mastermind, wreaks havoc and chaos on the citizens of Gotham City.",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "rating": {
+      "imdb": 9.0,
+      "rottenTomatoes": 94
+    }
+  },
+  {
+    "id": 5,
+    "title": "Avatar",
+    "year": 2009,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ],
+    "plot": "A paraplegic Marine is dispatched to the moon Pandora on a unique mission, torn between following orders and protecting an alien civilization.",
+    "poster": "https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+    "rating": {
+      "imdb": 7.9,
+      "rottenTomatoes": 82
+    }
+  },
+  {
+    "id": 6,
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "plot": "A former Roman General seeks revenge against the corrupt emperor who murdered his family and turned him into a gladiatorial slave.",
+    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "rating": {
+      "imdb": 8.5,
+      "rottenTomatoes": 77
+    }
+  },
+  {
+    "id": 7,
+    "title": "Titanic",
+    "year": 1997,
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ],
+    "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious ill-fated RMS Titanic.",
+    "poster": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "rating": {
+      "imdb": 7.9,
+      "rottenTomatoes": 88
+    }
+  },
+  {
+    "id": 8,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": [
+      "Drama"
+    ],
+    "director": "Frank Darabont",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "poster": "https://image.tmdb.org/t/p/w500/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg",
+    "rating": {
+      "imdb": 9.3,
+      "rottenTomatoes": 91
+    }
+  },
+  {
+    "id": 9,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ],
+    "plot": "After half of all life is snapped away by Thanos, the remaining Avengers must reassemble to undo his actions and restore the universe.",
+    "poster": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "rating": {
+      "imdb": 8.4,
+      "rottenTomatoes": 94
+    }
+  },
+  {
+    "id": 10,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ],
+    "plot": "A theme park suffers a catastrophic power breakdown that allows its cloned dinosaur exhibits to run amok through the park.",
+    "poster": "https://image.tmdb.org/t/p/w500/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+    "rating": {
+      "imdb": 8.2,
+      "rottenTomatoes": 91
+    }
+  },
+  {
+    "id": 11,
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "plot": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant youngest son.",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLeMsiL.jpg",
+    "rating": {
+      "imdb": 9.2,
+      "rottenTomatoes": 97
+    }
+  },
+  {
+    "id": 12,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "plot": "The presidencies of Kennedy and Johnson unfold through the eyes of an Alabama man with a low IQ, whose childhood sweetheart gets caught up in a turbulent era.",
+    "poster": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "rating": {
+      "imdb": 8.8,
+      "rottenTomatoes": 71
+    }
+  },
+  {
+    "id": 13,
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Roger Allers, Rob Minkoff",
+    "cast": [
+      "Matthew Broderick",
+      "Jeremy Irons",
+      "James Earl Jones"
+    ],
+    "plot": "Lion prince Simba flees his kingdom after the murder of his father and must reclaim his throne from his corrupt uncle Scar.",
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "rating": {
+      "imdb": 8.5,
+      "rottenTomatoes": 93
+    }
+  },
+  {
+    "id": 14,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "rating": {
+      "imdb": 8.9,
+      "rottenTomatoes": 92
+    }
+  },
+  {
+    "id": 15,
+    "title": "Schindler's List",
+    "year": 1993,
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Ben Kingsley"
+    ],
+    "plot": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "rating": {
+      "imdb": 9.0,
+      "rottenTomatoes": 98
+    }
+  },
+  {
+    "id": 16,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Peter Jackson",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "plot": "A meek hobbit and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "rating": {
+      "imdb": 8.9,
+      "rottenTomatoes": 91
+    }
+  },
+  {
+    "id": 17,
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Jon Watts",
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Benedict Cumberbatch"
+    ],
+    "plot": "Peter Parker's identity as Spider-Man is revealed, and he asks Doctor Strange for help, which accidentally opens the multiverse and unleashes dangerous villains.",
+    "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "rating": {
+      "imdb": 8.2,
+      "rottenTomatoes": 93
+    }
+  },
+  {
+    "id": 18,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Bong Joon-ho",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong"
+    ],
+    "plot": "A poor family schemes to become employed by a wealthy family by posing as unrelated, highly qualified individuals, with dark consequences.",
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "rating": {
+      "imdb": 8.5,
+      "rottenTomatoes": 99
+    }
+  },
+  {
+    "id": 19,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon"
+    ],
+    "plot": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "rating": {
+      "imdb": 8.3,
+      "rottenTomatoes": 93
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Jonathan Demme",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ],
+    "plot": "A young FBI cadet seeks help from imprisoned cannibal Dr. Hannibal Lecter to catch another serial killer known as Buffalo Bill.",
+    "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "rating": {
+      "imdb": 8.6,
+      "rottenTomatoes": 95
+    }
+  }
+]

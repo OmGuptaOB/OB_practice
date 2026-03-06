@@ -7,7 +7,13 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class FourthViewController: UIViewController,ChangeColourDelegate {
+    
+    func didTapChangeColor(color: UIColor, click: String) {
+        self.view.backgroundColor = color
+        delegate?.didTapChangeColor(color: color, click: click)
+    }
+    
     
     weak var delegate : ChangeColourDelegate?
     

@@ -8,7 +8,13 @@
 import UIKit
 
 
-class SecondViewController: UIViewController, UIViewControllerTransitioningDelegate {
+class SecondViewController: UIViewController, UIViewControllerTransitioningDelegate, ChangeColourDelegate {
+    
+    func didTapChangeColor(color: UIColor, click: String) {
+        self.view.backgroundColor = color
+        delegate?.didTapChangeColor(color: color, click: click)
+    }
+    
   
     @IBOutlet weak var labelout: UILabel!
     
@@ -53,7 +59,7 @@ class SecondViewController: UIViewController, UIViewControllerTransitioningDeleg
 
     override func viewWillLayoutSubviews(){
 //        view.layer.cornerRadius = view.frame.height 12
-        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
+//        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
         print(#function,"for secondview controller")
     }
     override func viewDidLayoutSubviews(){
@@ -72,35 +78,36 @@ class SecondViewController: UIViewController, UIViewControllerTransitioningDeleg
         super.viewDidDisappear(animated)
     }
     
-    func presentationController(
-            forPresented presented: UIViewController,
-            presenting: UIViewController?,
-            source: UIViewController
-        ) -> UIPresentationController? {
-            print("func called",#function)
-            return CustomPresentationController(
-                presentedViewController: presented,
-                presenting: presenting
-            )
-        }
+//    func presentationController(
+//            forPresented presented: UIViewController,
+//            presenting: UIViewController?,
+//            source: UIViewController
+//        ) -> UIPresentationController? {
+//            print("func called",#function)
+//            return CustomPresentationController(
+//                presentedViewController: presented,
+//                presenting: presenting
+//            )
+//        }
     
     @IBAction func btnSecond(_ sender: Any) {
         let thirdVC = storyboard?.instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
         thirdVC.str = labelText
         
         thirdVC.delegate = delegate
-        thirdVC.modalPresentationStyle = .formSheet
-        thirdVC.transitioningDelegate = self
-        
-//        if let sheet = thirdVC.sheetPresentationController {
-//            sheet.detents = [
-//                .custom { context in
-//                    return 500
-//                    }
-//            ]
-//            
-//        }
+//        thirdVC.modalPresentationStyle = /*.pageSheet*/
+//        thirdVC.transitioningDelegate = self
+//                 if let sheet = thirdVC.sheetPresentationController {
+//        sheet.detents = [
+//            .custom { context in
+//                return 500
+//            }
+//        ]
+//        
+//    }
+//        thirdVC.modalPresentationStyle = .pageSheet
 //        self.present(thirdVC, animated: true)
+      
         self.navigationController?.pushViewController(thirdVC, animated: true)
 //        self.navigationController?.popViewController(animated: true)
         

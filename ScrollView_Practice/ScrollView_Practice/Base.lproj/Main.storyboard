@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollView_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3op-es-fXI">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FaY-L7-8Dd">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="2000"/>
+                                        <color key="backgroundColor" white="1" alpha="0.71303290562913912" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="hGm-vA-DrE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FaY-L7-8Dd" firstAttribute="top" secondItem="3op-es-fXI" secondAttribute="top" id="G74-Ny-byy"/>
+                                    <constraint firstItem="FaY-L7-8Dd" firstAttribute="width" secondItem="3op-es-fXI" secondAttribute="width" id="Ilk-R9-RRC"/>
+                                    <constraint firstAttribute="bottom" secondItem="FaY-L7-8Dd" secondAttribute="bottom" id="jXn-L9-7PO"/>
+                                    <constraint firstAttribute="trailing" secondItem="FaY-L7-8Dd" secondAttribute="trailing" id="lFy-AL-bXz"/>
+                                    <constraint firstItem="FaY-L7-8Dd" firstAttribute="leading" secondItem="3op-es-fXI" secondAttribute="leading" id="yfl-fk-x7E"/>
+                                </constraints>
+                            </scrollView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m7A-a4-zLp">
+                                <rect key="frame" x="121" y="826" width="150" height="4"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="m7A-a4-zLp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="121" id="EkS-s6-jc8"/>
+                            <constraint firstItem="3op-es-fXI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MUG-U4-gG0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3op-es-fXI" secondAttribute="bottom" id="Vjc-bG-BfV"/>
+                            <constraint firstAttribute="bottom" secondItem="m7A-a4-zLp" secondAttribute="bottom" constant="22" id="ayE-5i-v38"/>
+                            <constraint firstItem="m7A-a4-zLp" firstAttribute="top" secondItem="3op-es-fXI" secondAttribute="bottom" constant="8" id="tcX-hD-CNn"/>
+                            <constraint firstItem="3op-es-fXI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wLk-Du-E6v"/>
+                            <constraint firstAttribute="trailing" secondItem="m7A-a4-zLp" secondAttribute="trailing" constant="122" id="wXF-m7-kHO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3op-es-fXI" secondAttribute="trailing" id="wjm-bH-ZgP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="FaY-L7-8Dd" id="UXS-EL-ezf"/>
+                        <outlet property="progressView" destination="m7A-a4-zLp" id="glj-pc-oy2"/>
+                        <outlet property="scrollView" destination="3op-es-fXI" id="Ov7-oL-Dt5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

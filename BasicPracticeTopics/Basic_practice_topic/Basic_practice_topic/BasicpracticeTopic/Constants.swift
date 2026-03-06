@@ -25,7 +25,6 @@ class Constants{
         
         print("value of a : \(a)" )
         print(a)
-        
     }
     
 
@@ -48,9 +47,6 @@ class Constants{
             print(balance)
         }
     
-    
-
-    
     //
     //let Game  = "cricket "
     //var player = "Rohit"
@@ -69,7 +65,7 @@ class Constants{
     //date="27-04-2026"
     //score=200
     //print(date)
-    ////        Game="football" Cannot assign to value: 'Game' is a 'let' constant
+    //  Game="football" Cannot assign to value: 'Game' is a 'let' constant
     //print("Welcome to IPL 2026 the game of \(Game)")
     //player="subham"
     //score = score+11

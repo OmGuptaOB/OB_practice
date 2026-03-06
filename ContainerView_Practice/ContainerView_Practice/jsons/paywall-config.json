@@ -1,0 +1,75 @@
+{
+  "basic": {
+    "basic_product_ids": [
+      "com.nra.flyermaker.weeklypro",
+      "com.nra.flyermaker.yearlypro",
+      "com.nra.flyermaker.adfree"
+    ],
+    "basic_yearly_trial_plan": {
+      "show_basic_yearly_trial_plan": 1,
+      "basic_yearly_trial_plan_id": "com.nra.flyermaker.trial.yearlypro"
+    },
+    "basic_free_festival_image": "",
+    "basic_pro_festival_image": "",
+    "basic_plan_default_selection_border_color": "#E2DEDB",
+    "basic_plan_selection_border_color": "#0AABFE",
+    "basic_life_time_plan_bg_color": "#F3FBFF",
+    "basic_life_time_plan_offer_bg_color": "#F67B84",
+    "basic_life_time_plan_offer_text_color": "#FFFFFF",
+    "basic_cta_bg_color": "#0AABFE",
+    "basic_cta_text_color": "#FFFFFF",
+    "basic_limited_time_offer_text_color": "#FF4242",
+    "basic_plan_per_week_text_color": "#7B8083",
+    "basic_plan_free_trial_text_color": "#0AABFE",
+    "close_icon_color": "#80ACCA",
+    "basic_plan_price": "$89.99",
+    "basic_offer_details": "Ending in",
+    "basic_yearly_price": "$39.99",
+    "basic_weekly_price": "$3.99",
+    "basic_lifetime_badge": "85% OFF",
+    "basic_yearly_badge": "81% OFF",
+    "basic_lifetime_subtitle": "Buy once, keep forever!",
+    "basic_yearly_subtitle": "Most flexible. Try it out.",
+    "basic_yearly_per_week_text": "Just $0.77/Week",
+    "purchase_banner_title": "",
+    "purchase_banner_image": "purchase_banner_basic",
+    "basic_segment_title": "BASIC",
+    "basic_cta_button_text": "Continue",
+    "basic_success_message": "You’ve purchased successfully, enjoy basic access."
+  },
+  "premium": {
+    "premium_product_ids": [
+      "com.nra.flyermaker.premium_lifetime",
+      "com.nra.flyermaker.premium_yearly",
+      "com.nra.flyermaker.premium_weekly"
+    ],
+    "premium_yearly_trial_plan": {
+      "show_premium_yearly_trial_plan": 1,
+      "premium_yearly_trial_plan_id": "com.nra.flyermaker.trial.yearlypremium"
+    },
+    "premium_plan_default_selection_border_color": "#3A3A3A",
+    "premium_plan_selection_border_color": "#000000",
+    "premium_life_time_plan_bg_color": "#FFF8E7",
+    "premium_life_time_plan_offer_bg_color": "#C8A000",
+    "premium_life_time_plan_offer_text_color": "#FFFFFF",
+    "premium_cta_bg_color": "#000000",
+    "premium_cta_text_color": "#FFFFFF",
+    "premium_limited_time_offer_text_color": "#FF4242",
+    "premium_plan_per_week_text_color": "#7B8083",
+    "premium_plan_free_trial_text_color": "#C8A000",
+    "premium_plan_price": "$89.99",
+    "premium_yearly_price": "$49.99",
+    "premium_weekly_price": "$4.99",
+    "premium_offer_details": "Ending in",
+    "premium_lifetime_badge": "85% OFF",
+    "premium_yearly_badge": "81% OFF",
+    "premium_lifetime_subtitle": "Buy once, keep forever!",
+    "premium_yearly_subtitle": "Most flexible. Try it out.",
+    "premium_yearly_per_week_text": "Just $0.96/Week",
+    "purchase_banner_title": "",
+    "purchase_banner_image": "Prchase_banner_premium",
+    "premium_segment_title": "PREMIUM",
+    "premium_cta_button_text": "Continue",
+    "premium_success_message": "You’ve purchased successfully, enjoy premium access."
+  }
+}

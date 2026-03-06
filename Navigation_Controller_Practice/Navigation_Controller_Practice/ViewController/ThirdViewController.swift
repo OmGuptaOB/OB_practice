@@ -7,38 +7,45 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController,UIViewControllerTransitioningDelegate {
+class ThirdViewController: UIViewController,UIViewControllerTransitioningDelegate,ChangeColourDelegate {
+    
+    func didTapChangeColor(color: UIColor, click: String) {
+        self.view.backgroundColor = color
+        delegate?.didTapChangeColor(color: color, click: click)
+    }
+    
 
     weak var delegate: ChangeColourDelegate?
+    
     @IBOutlet weak var lblThird: UILabel!
     var str : String?
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
+//        view.frame = CGRect(x: 10, y: 200, width: 400, height: 300)
     }
     
-    func presentationController(
-            forPresented presented: UIViewController,
-            presenting: UIViewController?,
-            source: UIViewController
-        ) -> UIPresentationController? {
-            print("func called",#function)
-            return CustomPresentationController(
-                presentedViewController: presented,
-                presenting: presenting
-            )
-        }
+//    func presentationController(
+//            forPresented presented: UIViewController,
+//            presenting: UIViewController?,
+//            source: UIViewController
+//        ) -> UIPresentationController? {
+//            print("func called",#function)
+//            return CustomPresentationController(
+//                presentedViewController: presented,
+//                presenting: presenting
+//            )
+//        }
     
     @IBAction func btnThird(_ sender: Any) {
         let fourthVC = storyboard?.instantiateViewController(withIdentifier: "FourthViewController") as! FourthViewController
         fourthVC.delegate = delegate
-        fourthVC.modalPresentationStyle = .custom
-        fourthVC.transitioningDelegate = self
+        fourthVC.modalPresentationStyle = .pageSheet
+
 //        let nav = UINavigationController(rootViewController: scondVC)
         
-//        self.navigationController?.pushViewController(fourthVC, animated: true)
-        self.present(fourthVC, animated: true)
+        self.navigationController?.pushViewController(fourthVC, animated: true)
+//        self.present(fourthVC, animated: true)
         
     }
     override func viewDidLoad() {

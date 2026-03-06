@@ -69,7 +69,11 @@ class Enums {
         }
     }
 
+    enum Day: CaseIterable {
+        case monday, tuesday, wednesday
+    }
 
+  let value =   Day.allCases
 
     enum Beverage: CaseIterable {
         case coffee , tea  , juice
@@ -161,6 +165,8 @@ class Enums {
 //      print("product : \(product)")
       
     }
+    
+    
     
     
     

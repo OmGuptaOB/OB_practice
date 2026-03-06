@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,ChangeColourDelegate, UIViewControllerTransitioningDelegate {
+class ViewController: UIViewController,ChangeColourDelegate {
     
     
     @IBOutlet weak var LblwhichClick: UILabel!
@@ -73,24 +73,36 @@ class ViewController: UIViewController,ChangeColourDelegate, UIViewControllerTra
         super.viewDidDisappear(animated)
     }
     
-    func presentationController(
-            forPresented presented: UIViewController,
-            presenting: UIViewController?,
-            source: UIViewController
-        ) -> UIPresentationController? {
-            print(#function)
-            return CustomPresentationController(
-                presentedViewController: presented,
-                presenting: presenting
-            )
-        }
+//    func presentationController(
+//            forPresented presented: UIViewController,
+//            presenting: UIViewController?,
+//            source: UIViewController
+//        ) -> UIPresentationController? {
+//            print(#function)
+//            return CustomPresentationController(
+//                presentedViewController: presented,
+//                presenting: presenting
+//            )
+//        }
     
     @IBAction func btnfirst(_ sender: Any) {
         let secondVC = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
         secondVC.delegate = self
         secondVC.labelText = "Hello, World!"
-        secondVC.modalPresentationStyle = .formSheet
-        self.present(secondVC, animated: true) // this also works
+        let navController = UINavigationController(rootViewController: secondVC)
+        
+        if let sheet = navController.sheetPresentationController {
+            sheet.detents = [
+                .custom { context in
+                    return 500
+                }
+            ]
+            
+        }
+        secondVC.modalPresentationStyle = .pageSheet
+//        secondVC.transitioningDelegate = self
+        
+        self.present(navController, animated: true) // this also works
         print("==========================")
         print("first view crossed")
     }

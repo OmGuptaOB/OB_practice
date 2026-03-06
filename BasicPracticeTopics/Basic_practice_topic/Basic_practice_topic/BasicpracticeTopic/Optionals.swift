@@ -16,12 +16,6 @@ class Optionals {
         self.score = nil
     }
 
-    func printCity() {
-       
-        
-        
-        
-    }
 
     func printScore() {
         if let score = score {
@@ -29,6 +23,7 @@ class Optionals {
         } else {
             print("Score is nil")
         }
+        
         let possibleNumber = "123"
         if let actualNumber = Int(possibleNumber) {
             print("The string \"\(possibleNumber)\" has an integer value of \(actualNumber)")
