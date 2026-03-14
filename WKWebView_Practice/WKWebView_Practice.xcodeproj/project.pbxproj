@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9BF65D2F5AF03D00C64A31 /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BF65C2F5AF03D00C64A31 /* Greeter.m */; };
 		2EC8CDDE2F5AA14100302CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC8CDD52F5AA14100302CAF /* Assets.xcassets */; };
 		2EC8CDE02F5AA14100302CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC8CDD82F5AA14100302CAF /* LaunchScreen.storyboard */; };
 		2EC8CDE12F5AA14100302CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC8CDDA2F5AA14100302CAF /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9BF65B2F5AF03D00C64A31 /* WKWebView_Practice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView_Practice-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E9BF65C2F5AF03D00C64A31 /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		2E9BF65E2F5AF0C100C64A31 /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
 		2EC8CDBC2F5AA13300302CAF /* WKWebView_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC8CDD42F5AA14100302CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC8CDD52F5AA14100302CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E9BF65A2F5AF01600C64A31 /* ObjcFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E9BF65C2F5AF03D00C64A31 /* Greeter.m */,
+				2E9BF65B2F5AF03D00C64A31 /* WKWebView_Practice-Bridging-Header.h */,
+				2E9BF65E2F5AF0C100C64A31 /* Greeter.h */,
+			);
+			path = ObjcFiles;
+			sourceTree = "<group>";
+		};
 		2EC8CDB32F5AA13300302CAF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +72,7 @@
 		2EC8CDDD2F5AA14100302CAF /* WKWebView_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				2E9BF65A2F5AF01600C64A31 /* ObjcFiles */,
 				2EC8CDE62F5AA14E00302CAF /* Delegates */,
 				2EC8CDE52F5AA14300302CAF /* ViewControllers */,
 				2EC8CDD52F5AA14100302CAF /* Assets.xcassets */,
@@ -121,6 +136,7 @@
 				TargetAttributes = {
 					2EC8CDBB2F5AA13300302CAF = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -181,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9BF65D2F5AF03D00C64A31 /* Greeter.m in Sources */,
 				2EC8CDE22F5AA14100302CAF /* AppDelegate.swift in Sources */,
 				2EC8CDE32F5AA14100302CAF /* SceneDelegate.swift in Sources */,
 				2EC8CDE42F5AA14100302CAF /* ViewController.swift in Sources */,
@@ -215,6 +232,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -232,6 +250,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "OB.WKWebView-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WKWebView_Practice/ObjcFiles/WKWebView_Practice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -242,6 +262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -259,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "OB.WKWebView-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WKWebView_Practice/ObjcFiles/WKWebView_Practice-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

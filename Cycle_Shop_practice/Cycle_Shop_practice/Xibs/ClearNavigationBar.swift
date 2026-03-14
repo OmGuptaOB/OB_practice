@@ -15,8 +15,6 @@ class ClearNavigationBar: UIView {
     
     @IBOutlet weak var btnTitleNav: UIButton!
     
-    @IBOutlet weak var btnTitleNav2: UIButton!
-    
     override var semanticContentAttribute: UISemanticContentAttribute {
         get {
             return super.semanticContentAttribute
@@ -40,6 +38,7 @@ class ClearNavigationBar: UIView {
     private func commonInit() {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: "ClearNavigationBar", bundle: bundle)
+        
         guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else { return }
         
         view.frame = bounds
@@ -54,7 +53,6 @@ class ClearNavigationBar: UIView {
         super.layoutSubviews()
         // Ensure gradients are always in sync when the view (or its children) changes size
         btnTitleNav?.updateGradientFrame()
-        btnTitleNav2?.updateGradientFrame()
     }
 //    func setup() {
 //        applyGradient(to: btnTitleNav, cornerRadius: 14)

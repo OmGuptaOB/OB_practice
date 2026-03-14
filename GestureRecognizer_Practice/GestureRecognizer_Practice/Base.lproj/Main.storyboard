@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizer_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9aO-eJ-RVt">
+                                <rect key="frame" x="100" y="326" width="242" height="200"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Ack-0J-BNa"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4N7-m7-9bB" appends="YES" id="vs9-qh-uCC"/>
+                                    <outletCollection property="gestureRecognizers" destination="3QD-6I-qvE" appends="YES" id="fnK-4M-Bgz"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q0-rF-p0T">
+                                <rect key="frame" x="50" y="783.66666666666663" width="142" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add"/>
+                                <connections>
+                                    <action selector="addDynamicViewTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wsw-eP-hpo"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fn2-mi-mnh">
+                                <rect key="frame" x="10" y="236" width="82" height="413"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Y0W-Z2-Kg2">
+                                        <rect key="frame" x="0.0" y="0.0" width="82" height="414"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3N-Og-WFc">
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="96"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                                <connections>
+                                                    <action selector="sideMenuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3h0-vb-BV2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Hc7-E2-0JQ">
+                                                <rect key="frame" x="0.0" y="106" width="82" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                                <connections>
+                                                    <action selector="sideMenuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="th3-oD-vD5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="bIW-vP-yaa">
+                                                <rect key="frame" x="0.0" y="212" width="82" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3"/>
+                                                <connections>
+                                                    <action selector="sideMenuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGk-g0-79P"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="727-52-ytt">
+                                                <rect key="frame" x="0.0" y="318" width="82" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4"/>
+                                                <connections>
+                                                    <action selector="sideMenuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5EA-jJ-mGd"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Y0W-Z2-Kg2" firstAttribute="top" secondItem="Fn2-mi-mnh" secondAttribute="top" id="3yB-dd-5fl"/>
+                                    <constraint firstItem="Y0W-Z2-Kg2" firstAttribute="leading" secondItem="Fn2-mi-mnh" secondAttribute="leading" id="A2D-82-hpe"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y0W-Z2-Kg2" secondAttribute="trailing" id="PIf-us-Rke"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y0W-Z2-Kg2" secondAttribute="bottom" id="xiP-i1-SiG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="9aO-eJ-RVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="6tt-gm-mup"/>
+                            <constraint firstAttribute="trailing" secondItem="Fn2-mi-mnh" secondAttribute="trailing" constant="300" id="Aiu-Sk-8zC"/>
+                            <constraint firstItem="9aO-eJ-RVt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KGs-MT-RaJ"/>
+                            <constraint firstItem="Fn2-mi-mnh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="177" id="LtU-zo-lCk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5q0-rF-p0T" secondAttribute="trailing" constant="200" id="Y7d-dg-9Gu"/>
+                            <constraint firstItem="Fn2-mi-mnh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gWq-78-eaw"/>
+                            <constraint firstItem="5q0-rF-p0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="hFn-MZ-cc1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fn2-mi-mnh" secondAttribute="bottom" constant="169" id="hP1-0f-gMn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9aO-eJ-RVt" secondAttribute="trailing" constant="50" id="jSL-nW-l2V"/>
+                            <constraint firstItem="5q0-rF-p0T" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lSk-xB-1R9"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jaX-pm-jNE" appends="YES" id="21m-Zv-cic"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="addViewBtn" destination="5q0-rF-p0T" id="yjd-Ax-oWh"/>
+                        <outlet property="btn1" destination="T3N-Og-WFc" id="Vbg-wY-OpV"/>
+                        <outlet property="btn2" destination="Hc7-E2-0JQ" id="htO-ea-kgL"/>
+                        <outlet property="btn3" destination="bIW-vP-yaa" id="l3R-zM-CwQ"/>
+                        <outlet property="btn4" destination="727-52-ytt" id="uqc-Uu-DIe"/>
+                        <outlet property="panGestureRecogniser" destination="3QD-6I-qvE" id="Vst-Bq-DIs"/>
+                        <outlet property="pinchGestureRecognizer" destination="zYt-si-TI5" id="QCF-Nd-q6c"/>
+                        <outlet property="rotationGestureRecogniser" destination="Qsk-F3-Fsu" id="JdK-fR-sdl"/>
+                        <outlet property="sideView" destination="Fn2-mi-mnh" id="n4h-eQ-fcx"/>
+                        <outlet property="sideviewLeadingConstraint" destination="gWq-78-eaw" id="yAz-dR-6yw"/>
+                        <outlet property="sideviewTrailingConstraint" destination="Aiu-Sk-8zC" id="XQ9-F4-hXl"/>
+                        <outlet property="swipeGestureRecognizer" destination="4N7-m7-9bB" id="dq7-Bn-tZ7"/>
+                        <outlet property="swipeGestureView" destination="9aO-eJ-RVt" id="yKc-Nr-uPp"/>
+                        <outlet property="tapgestureRecogniser" destination="jaX-pm-jNE" id="Z0M-Nb-nFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jaX-pm-jNE"/>
+                <swipeGestureRecognizer direction="right" id="4N7-m7-9bB"/>
+                <pinchGestureRecognizer id="zYt-si-TI5"/>
+                <rotationGestureRecognizer id="Qsk-F3-Fsu"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="3QD-6I-qvE"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

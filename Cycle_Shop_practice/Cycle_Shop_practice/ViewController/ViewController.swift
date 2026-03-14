@@ -58,14 +58,10 @@ class ViewController: UIViewController {
         
     func setupNavTitle() {
         discoverPageNavbar.lblTitleNav?.text = "Choose Your Bike"
-        discoverPageNavbar.btnTitleNav2?.isHidden = true
-//        discoverPageNavbar.btnTitleNav?.isHidden = true
-        discoverPageNavbar.btnTitleNav.tintColor = .white  // keeps icon white on top of gradient
+        discoverPageNavbar.btnTitleNav.tintColor = .white
     
         discoverPageNavbar.btnTitleNav.applyBrandGradient(cornerRadius: AppStyle.CornerRadius.button)
         
-//        discoverPageNavbar.btnTitleNav.applyBrandGradient(cornerRadius: AppStyle.CornerRadius.button)
-
         discoverPageNavbar.contentView.backgroundColor = .clear
         discoverPageNavbar.semanticContentAttribute = .forceLeftToRight
     }
@@ -118,16 +114,16 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.section == 0  {
-            
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "bannerCell", for: indexPath) as! CVBannerCell
             
             if let product = selectedProductForBanner {
                 cell.imgBanner.image = UIImage(named: product.thumbnail)
                 cell.lbldiscount.text = "\(product.discountPercent)% Off"
             }
-            
             return cell
+            
         }else if indexPath.section == 1{
+            
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "miniCell", for: indexPath) as! CVMiniCell
             cell.configureGradient(isSelected: indexPath.item == selectedCategoryIndex)
             cell.imgViewMini.image = iconList[indexPath.row]

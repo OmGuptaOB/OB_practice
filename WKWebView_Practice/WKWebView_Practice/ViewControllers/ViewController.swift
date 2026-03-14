@@ -18,6 +18,9 @@ class ViewController: UIViewController {
            let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
 
            versionLabel.text = "Version \(version ?? "") (\(build ?? ""))"
+        
+        let greeter = Greeter()
+              greeter.sayHello()
     }
     @IBAction func btnshowWebview(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
